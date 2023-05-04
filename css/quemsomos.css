@@ -1,0 +1,494 @@
+.quemsomos {
+    background-color: #BFBEFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+}
+
+.quemsomos h1 {
+    /* cor da fonte */
+    color: #01003D;
+
+    /* tamanho fonte */
+    font-size: 128px;
+
+    /* letra maiuscula */
+    text-transform: uppercase;
+    
+    /* alinhamento eixo x */
+    align-items: center;
+
+    /* alinhamento eixo y */
+    justify-content: center;
+
+    /* margem do topo */
+    margin-top: 60px;
+
+    /* margem esquerda */
+    margin-left: 85px;
+
+    /* margem de baixo */
+    margin-bottom: 25px;
+}
+
+.quemsomos p {
+    /* cor da fonte */
+    color: #01003D;
+
+    /* alinhamento eixo x */
+    align-items: center;
+
+    /* alinhamento texto */
+    text-align: center;
+
+    /* alinhamento eixo y */
+    justify-content: center;
+
+    /* posição relativa a sessao */
+    position: relative;
+
+    /* margem do topo */
+    margin-top: 80px;
+
+    /* margem da direita */
+    margin-right: 35px;
+
+    /* tamanho da fonte */
+    font-size: 25px;
+}
+
+/* seção nossa missao */
+.nossamissao {
+    /* cor de fundo */
+    background-color: #fff;
+    
+    /* elemento grid */
+    display: grid;
+
+    /* 2 colunas */
+    grid-template-columns: 1fr 1fr;
+
+    /* margem do topo */
+    margin-top: 400px;
+}
+
+/* titulo */
+.nossamissao h1 {
+    /* cor da fonte */
+    color: #01003D;
+    
+    /* tamanho da fonte */
+    font-size: 128px;
+
+    /* letra maiuscula */
+    text-transform: uppercase;
+    
+    /* margem da esquerda */
+    margin-left: 105px;
+    
+    margin-right: 30px;
+}
+
+/* texto */
+.nossamissao p {
+    /* cor do texto */
+    color: #01003D;
+
+    /* alinhamento x */
+    align-items: center;
+
+    /* alinhamento texto */
+    text-align: center;
+
+    /* alinhamento y */
+    justify-content: center;
+
+    /* posição relativa a sessao */
+    position: relative;
+
+    /* margem do topo */
+    margin-top: 40px;
+
+    /* margem da esquerda */
+    margin-left: 25px;
+    
+    /* tamanho da fonte */
+    font-size: 25px;
+}
+
+.resumo-produtos {
+    /* cor do fundo */
+    background: #008DB9;
+    
+    /* formatação elemento */
+    display: grid;   
+
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    place-items: center;
+
+}
+
+.resumo-produtos h1 {
+    position: absolute;
+    margin-bottom: 300px;    
+}
+
+
+.produtos-cat {
+/* cor de fundo */
+background: #BFBEFF;
+
+/* margem interna */
+padding: 20px 15px 0px;
+
+/* margem */
+margin: 120px 15px 30px;
+
+/* arredondamento da borda */
+border-radius: 5px;
+
+/* justifica o espaço igual entre os blocos */
+justify-content: center;
+
+/* muda o dislpay */
+ display: flex;
+
+ /* transforma o bloco em coluna */
+ flex-direction: column;
+
+ /* largura maxima do item */
+ width: 150px;
+
+ /* altura maxima */
+ height: 200px;
+
+ /* alinhamento */
+ align-items: center;
+}
+
+.produtos-cat img{
+    height: 140px;
+    width: 140px;
+}
+
+.produtos-cat p {
+    /* margem do topo */
+    margin-top: 10px;
+
+    /* cor da fonte */
+    color: #01003D;
+}
+
+.resumo-produtos h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bot3 {    
+background: #008DB9;
+display: grid;
+place-items: center;
+}
+
+.botao3 {
+    background: #FF8049;
+    /* altura */
+    height: 35px;
+
+    /* largura */
+    width: 130px;
+   
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.botao3 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #01003D;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+
+.botao3:hover {
+    /* cor da fonte */
+    color: #FF8049;
+
+    /* cor de fundo */
+    background-color: #01003D;
+
+    /* tempo de efeito */
+    transition: .5s;
+}
+
+.botao3 a:hover {
+    color: #FF8049;
+}
+
+
+/* RESPONSIVO */
+@media (max-width: 1220px) {
+    .quemsomos p {
+        font-size: 22px;
+        margin-top: 90px;
+    }
+
+    .nossamissao p {
+        font-size: 22px;
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 1130px) {
+
+    .quemsomos h1 {
+        margin-left: 35px;
+    }    
+
+    .nossamissao h1 {
+        margin-right: 35px;
+    }
+
+    .nossamissao p {
+        margin-top: 40px;         
+    }
+}
+
+@media (max-width: 1060px) {
+
+    .quemsomos h1 {
+        font-size: 115px;
+    }
+
+    .quemsomos p {
+        font-size: 20px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+
+    .nossamissao h1 {
+        font-size: 115px;
+    }
+
+    .nossamissao p {
+        font-size: 20px;
+    }
+
+    
+}
+
+@media (max-width: 975px) {
+
+    .quemsomos h1 {
+        font-size: 90px;
+        margin-left: 65px;
+    }
+
+    .quemsomos p {
+        font-size: 18px;
+    }
+    
+
+    .nossamissao h1 {
+        margin-top: -80px;
+        font-size: 90px;
+    }
+
+    .nossamissao p {
+        margin-top: -60px;
+        font-size: 18px;
+        margin-left: 80px;
+    }
+}
+
+
+@media (max-width: 880px) {   
+    .quemsomos h1 {
+        margin-left: 50px;
+        font-size: 80px;
+    } 
+
+    .quemsomos p {
+        margin-top: 60px;
+        font-size: 17px;
+    }
+
+    .nossamissao h1 {
+        font-size: 80px;
+    }
+
+    .nossamissao p {
+        font-size: 17px;
+    }
+}
+
+
+
+@media (max-width: 798px) {   
+    .quemsomos h1 {
+        margin-left: 85px;
+        font-size: 70px;
+    } 
+
+    .quemsomos p {
+        margin-top: 60px;
+        font-size: 15px;
+    }
+
+    .nossamissao h1 {
+        font-size: 70px;
+        margin-top: -135px;
+    }
+
+    .nossamissao p {
+        margin-top: -125px;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 730px) {
+    .quemsomos {
+        grid-template-columns: 1fr;
+    }   
+    .quemsomos h1 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 0;
+        font-size: 45px;
+    } 
+
+    .quemsomos p {
+        padding: 0 50px;
+        margin-top: -20px;
+        margin-right: 0;
+    }
+
+    .nossamissao {
+        grid-template-columns: 1fr;
+    }
+
+
+    .nossamissao h1 {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: -155px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 45px;
+    }
+
+    .nossamissao p {
+        padding: 0 50px;
+        margin-left: 0;
+        margin-top: -30px;
+        position: absolute;
+    }
+}
+
+@media (max-width: 602px) {
+    .nossamissao h1 {
+        margin-top: -130px;
+    }
+
+    .nossamissao p {
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 542px) {
+    .nossamissao h1 {
+        margin-top: -120px;
+    }
+
+    .nossamissao p {
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 492px) {
+    .nossamissao h1 {
+        margin-top: -100px;
+    }
+
+    .nossamissao p {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 446px) {
+    .nossamissao h1 {
+        margin-top: -80px;
+    }
+
+    .nossamissao p {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 422px) {
+    .nossamissao h1 {
+        margin-top: -70px;
+    }
+
+    .nossamissao p {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .quemsomos h1 {
+        font-size: 35px;
+    }
+    .quemsomos p {
+        font-size: 13px;
+    }
+    
+    .nossamissao h1 {
+        font-size: 35px;
+        margin-top: -110px;
+    }
+
+    .nossamissao p {
+        font-size: 13px;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 400px) {        
+    .nossamissao h1 {        
+        margin-top: -90px;
+    }
+
+    .nossamissao p {
+        font-size: 13px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 315px) {
+    .quemsomos h1 {
+        font-size: 30px;
+    }
+    .quemsomos p {
+        font-size: 12px;
+    }
+    
+    .nossamissao h1 {
+        font-size: 30px;
+        margin-top: -70px;
+    }
+
+    .nossamissao p {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+

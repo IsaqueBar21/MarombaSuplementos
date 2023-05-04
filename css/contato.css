@@ -1,0 +1,114 @@
+.titulo-form {
+    background-color: #008DB9;
+    color: #01003D;
+    margin-top: 0;
+    font-size: 90px;
+    padding: 30px;
+    line-height: 130px;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario {
+    margin-left: 23%;
+    margin-top: 50px;     
+}
+
+.formulario input{
+    font-size: 18px;
+}
+
+label{
+    font-size: 20px;
+}
+
+#quest{
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+#Nome{
+    width: 380px;
+    height: 50px;
+    border: 3px;
+    border-color: #FF8049;
+    border-width: 100%;
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+
+#Email{
+    width: 380px;
+    height: 50px;
+    border: 3px;
+    border-color: #FF8049;
+    border-width: 100%;
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+
+#Telefone{
+    width: 380px;
+    height: 50px;  
+    border: 3px;
+    border-color: #FF8049;
+    border-width: 100%;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+#enviar { 
+    color: black; 
+    height: 45px;
+    width: 190px;
+    font-size: 22px;
+    background-color: #FF8049; 
+    border: 3px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+    
+#enviar:hover {
+    transition-duration: .5s;
+    background-color: #01003D; 
+    color: #FF8049;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    -webkit-column-count: 2/ 3;
+    column-count: 2;
+    column-gap: 10px
+}
+
+textarea{
+    height: 260px;
+    width: 480px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+    border: 3px;
+    border-color: #FF8049;
+    border-style: solid;
+    
+}
+
+.caixa{
+    margin-left: -25%;
+}
+
+
+
+

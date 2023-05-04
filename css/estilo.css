@@ -1,0 +1,192 @@
+@import './produtos.css';
+@import './quemsomos.css';
+@import './contato.css';
+@import './footer.css';
+@import './header.css';
+
+/* Estilo padrão do documento */
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+
+/* corpo do documento */
+body {
+    /* fonte */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* tamanho da fonte padrão */
+    font-size: 1.125rem;
+
+    /* alinhamento y */
+    justify-content: center;
+}
+
+/* imagem */
+.banner img {
+    /* largura */
+    width: 100%;
+}
+
+/* div resumo quem somos */
+.resumo {
+    margin-top: 50px;
+    
+    /* cor de fundo */
+    background-color: #BFBEFF;
+
+    /* display */
+    display: grid;
+
+    /* colunas do documento */
+    grid-template-columns: 1fr 1fr;
+}
+
+/* estilos do titulo */
+.resumo h1 {
+    /* cor da fonte */
+    color: #01003D;
+
+    /* tamanho fonte */
+    font-size: 128px;
+
+    /* letra maiuscula */
+    text-transform: uppercase;
+    
+    /* alinhamento eixo x */
+    align-items: center;
+
+    /* alinhamento eixo y */
+    justify-content: center;
+
+    /* margem do topo */
+    margin-top: 60px;
+
+    /* margem esquerda */
+    margin-left: 85px;
+
+    /* margem de baixo */
+    margin-bottom: 25px;
+}
+
+/* estilo texto */
+.resumo p {
+    /* cor da fonte */
+    color: #01003D;
+
+    /* alinhamento eixo x */
+    align-items: center;
+
+    /* alinhamento texto */
+    text-align: center;
+
+    /* alinhamento eixo y */
+    justify-content: center;
+
+    /* posição relativa a sessao */
+    position: relative;
+
+    /* margem do topo */
+    margin-top: 80px;
+
+    /* margem da direita */
+    margin-right: 35px;
+
+    /* tamanho da fonte */
+    font-size: 25px;
+}
+
+/* estilo botao ver mais abaixo do resumo */
+.botao2 {
+    /* margem interna */
+    padding: 10px 20px;
+
+    /* transforma em elemento de bloco */
+    display: block;
+
+    /* alinhamento x */
+    align-items: center;
+
+    /* alinhamento y */
+    justify-content: center;
+}
+
+/* RESPONSIVO */
+@media (max-width: 1224px) {
+    .resumo h1 {
+        font-size: 125px;
+        margin-left: 75px;
+    }
+
+    .resumo p {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 1132px) {
+    .resumo h1 {
+        font-size: 115px;
+        margin-left: 65px;
+    }
+
+    .resumo p {
+    margin-top: 60px;
+    font-size: 22px;
+    }
+}
+
+@media (max-width: 1041px) {
+    .resumo h1 {
+        font-size: 100px;
+        margin-left: 45px;
+    }
+
+    .resumo p {
+    margin-top: 80px;
+    font-size: 20px;
+    }
+}
+
+@media (max-width: 940px) {
+    .resumo h1 {
+        font-size: 100px;
+        margin-left: 45px;
+    }
+
+    .resumo p {
+    font-size: 18px;
+    }
+}
+
+@media (max-width: 840px) {
+    .resumo {
+        grid-template-columns: 1fr;
+    }
+
+    .resumo h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .resumo p {
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 0 50px;
+    text-align: center;
+    }
+}
+
+@media (max-width: 553px) {
+    .resumo p {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+ 

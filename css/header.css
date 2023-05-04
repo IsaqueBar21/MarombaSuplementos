@@ -1,0 +1,174 @@
+.menu {
+    /* cor de fundo */
+    background-color: #01003D;
+
+    /* mantem um item ao lado do outro */
+    display: flex;        
+
+    /* alinhar itens ao centro */
+    align-items: center;
+
+
+    /* margem interna */
+    padding: 20px 20px;
+}
+
+.menu p {
+    /* cor da fonte dos itens do menu */
+    color: #FF8049;
+}
+
+.menu-info {
+    /* margem inicio */
+    margin-left: 50px;
+
+    /* mantem um item ao lado do outro */
+    display: flex;
+
+    /* distancia entre os itens */
+    gap: 20px;
+
+    /* quebrar caso o menu diminua muito */
+    flex-wrap: wrap;
+}
+
+.menu-info {
+    /* decoração padrão */
+    list-style: none;
+}
+
+.menu-info a {
+    /* altura da linha */
+    line-height: 1.3;
+
+    /* area de clique */
+    padding: 10px 20px;
+
+    /* decoração padrão */
+    text-decoration: none;    
+
+    /* cor do texto */
+    color: #FF8049;
+
+    /* para guardar os valores de padding */
+    display: block;
+}
+
+.entrar a {   
+
+    /* borda */
+    border: #BFBEFF solid 2px;
+
+    /* canto borda */
+    border-radius: 4px;
+    
+    /* posição absoluta fora do menu */
+    position: absolute;
+
+    /* margem da esquerda */
+    margin-left: 30%;
+
+    /* margem do topo */
+    margin-top: -3px;
+}
+
+/* estilo ao passar mouse em cima do botão */
+.menu-info a:hover {
+    /* cor da fonte */
+    color: #01003D;
+
+    /* cor do fundo */
+    background: #BFBEFF;
+
+    /* efeito */
+    transition: .5s;
+
+    /* borda */
+    border-radius: 4px;
+
+}
+
+/* RESPONSIVO */
+@media (max-width: 1260px) {
+    .entrar a {
+        margin-left: 25%;
+    }
+}
+
+@media (max-width: 1175px) {
+    .entrar a {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 1110px) {
+    .entrar a {
+        margin-left: 18%;
+    }
+}
+
+@media (max-width: 1070px) {
+    .entrar a {
+        margin-left: 15%;        
+        
+    }
+}
+
+@media (max-width: 1049px) {
+    .entrar a {
+        /* posição relativa ao menu */
+        position: relative;
+
+        /* margin interna */
+        padding: 10px 20px;
+
+        /* align-items: center; */
+        justify-content: center;
+
+        /* display flexivel */
+        display: flex;        
+    }
+}
+
+
+@media (max-width: 910px) {
+
+    .menu {
+        /* quebra o estilo em colunas */
+        flex-direction: column;
+
+        /* distancia entre os elementos */
+        gap: 40px;
+
+    }
+
+    .menu p {
+        /* diminui espaço entre o botão e o titulo */
+        margin-bottom: -15px;
+
+        /* letra maiuscula */
+        text-transform: uppercase;
+    }
+
+    .menu-info {
+        
+        /* remove margem da esquerda */
+        margin-left: 0px;
+
+        /* mantem conteudo no centro */
+        justify-content: center;
+    }
+    .menu-info a {
+        /* determina area de clique do botão */
+        border: #BFBEFF solid 1px;
+
+        /* borda */
+        border-radius: 4px;
+    }
+
+    .entrar a {
+        margin-top: -0.7px;
+        margin-left: -2px;
+    }
+        
+}
