@@ -351,9 +351,11 @@ place-items: center;
 
 
 @media (max-width: 730px) {
+
     .quemsomos {
         grid-template-columns: 1fr;
     }   
+
     .quemsomos h1 {
         align-items: center;
         justify-content: center;
@@ -380,7 +382,7 @@ place-items: center;
         justify-content: center;
         margin-top: -155px;
         margin-left: 0;
-        margin-right: 0;
+        margin-right: 0;        
         font-size: 45px;
     }
 
@@ -390,9 +392,23 @@ place-items: center;
         margin-top: -30px;
         position: absolute;
     }
+
+    .resumo-produtos {
+        margin-top: 70px;
+    }
 }
 
-@media (max-width: 602px) {
+@media (max-width: 626px) {
+.resumo-produtos {
+    margin-top: 80px;
+}
+.resumo-produtos .produtos-cat {
+    width: 140px;
+    height: 190px;
+}
+}
+
+@media (max-width: 605px) {
     .nossamissao h1 {
         margin-top: -130px;
     }
@@ -400,6 +416,52 @@ place-items: center;
     .nossamissao p {
         margin-top: -20px;
     }
+
+    .resumo-produtos h1 {
+       font-size: 45px;
+    }
+}
+
+@media (max-width: 590px) {
+
+    .resumo-produtos {
+        margin-top: 100px;
+    }
+
+    .resumo-produtos h1 {
+        font-size: 40px;
+     }
+
+    .resumo-produtos .produtos-cat {
+        width: 130px;
+        height: 180px;
+     }
+
+     .resumo-produtos .produtos-cat p {
+        font-size: 16px;
+     }
+
+}
+
+@media (max-width: 568px) {
+    .resumo-produtos .produtos-cat {
+        width: 130px;
+        height: 180px;
+     }
+
+     .resumo-produtos .produtos-cat p {
+        font-size: 16px;
+     }
+
+}
+
+@media (max-width: 560px) {
+    
+    .resumo-produtos .produtos-cat {
+        width: 120px;
+        height: 170px;
+     }
+    
 }
 
 @media (max-width: 542px) {
@@ -412,82 +474,36 @@ place-items: center;
     }
 }
 
+@media (max-width: 530px) {
+
+    .nossamissao p {
+        margin-top: -20px;
+    }
+
+    .resumo-produtos h1 {
+        margin-top: 100px;
+        font-size: 38px;
+    }
+
+    .resumo-produtos .produtos-cat {
+        width: 100px;
+        height: 150px;
+     }
+     .resumo-produtos .produtos-cat img {
+        height: 100px;
+        width: 100px;
+     }
+}
+
 @media (max-width: 492px) {
-    .nossamissao h1 {
-        margin-top: -100px;
-    }
-
-    .nossamissao p {
-        margin-top: 10px;
-    }
-}
-
-@media (max-width: 446px) {
-    .nossamissao h1 {
-        margin-top: -80px;
-    }
-
-    .nossamissao p {
-        margin-top: 30px;
-    }
-}
-
-@media (max-width: 422px) {
-    .nossamissao h1 {
-        margin-top: -70px;
-    }
-
-    .nossamissao p {
-        margin-top: 40px;
-    }
-}
-
-@media (max-width: 400px) {
-    .quemsomos h1 {
-        font-size: 35px;
-    }
-    .quemsomos p {
-        font-size: 13px;
-    }
-    
-    .nossamissao h1 {
-        font-size: 35px;
+    .nossamissao h1 {  
+        font-size: 40px;
         margin-top: -110px;
     }
 
     .nossamissao p {
+        margin-top: -10px;
         font-size: 13px;
-        margin-top: -20px;
-    }
-}
-
-@media (max-width: 400px) {        
-    .nossamissao h1 {        
-        margin-top: -90px;
-    }
-
-    .nossamissao p {
-        font-size: 13px;
-        margin-top: 0px;
-    }
-}
-
-@media (max-width: 315px) {
-    .quemsomos h1 {
-        font-size: 30px;
-    }
-    .quemsomos p {
-        font-size: 12px;
-    }
-    
-    .nossamissao h1 {
-        font-size: 30px;
-        margin-top: -70px;
-    }
-
-    .nossamissao p {
-        font-size: 12px;
-        margin-top: 10px;
     }
 }
 
