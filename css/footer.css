@@ -39,7 +39,26 @@
     width: 100px;
 }
 
-
+@media (max-width: 485px) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+    .footer-bloco h1 {
+        font-size: 25px;
+        margin-top: 30px;   
+        margin-bottom: 15px; 
+    }
+    
+    .footer-bloco p {
+        line-height: 26px;        
+    }
+    
+    .footer-bloco h3 {
+        font-size: 25px;
+        margin-top: 15px;   
+        margin-bottom: 15px;
+    }
+}
 
 
 

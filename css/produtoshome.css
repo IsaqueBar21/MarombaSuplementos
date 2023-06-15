@@ -1,0 +1,199 @@
+/* transforma os itens da section em linha */
+.grade {
+    display: flex;
+
+    /* justifica o espaço igual entre os blocos */
+    justify-content: space-around;
+}
+
+/* estilo de cada bloco */
+.grid {
+    /* justifica o espaço igual entre os blocos */
+justify-content: space-around;
+
+/* muda o dislpay */
+ display: flex;
+
+ /* transforma o bloco em coluna */
+ flex-direction: column;
+
+ /* altura maxima do item */
+ width: 150px;
+
+ /* alinhamento */
+ align-items: center;
+
+}
+
+/* estilo titulo produto */
+.titulo {
+    /* cor fonte */
+    color: #01003D;
+
+    /* margin superior */
+    margin-top: 15px;
+
+    /* margem interna */
+    padding: 5px;
+
+    /* margem inferior */
+    margin-bottom: 10px;
+
+    /* alinhamento item */
+    align-items: center;
+
+    /* alinhamento texto */
+    text-align: center;
+}
+
+/* foto produto */
+.foto {
+    /* largura */
+    width: 200px;
+
+    /* altura */
+    height: 200px;
+}
+
+/* preço produto */
+.preco {
+    /* margem superior */
+    margin-top: 20px;
+
+    /* cor da fonte */
+    color: #01003D;
+}
+
+/* botao comprar */
+.comprar, .botao {
+    /* cor de fundo */
+    background-color: #FF8049;
+
+    /* decoração padrão */
+    text-decoration: none;
+
+    /* margem interna */
+    padding: 15px 10px;
+
+    /* margem externa */
+    margin: 10px 20px;
+
+    /* borda */
+    border-radius: 4px;
+
+    /* cor da fonte */
+    color: #01003D;
+}
+
+/* classe botoes ver mais */
+.bot {
+    /* elemento de grid */
+    display: grid;
+
+    /* alinha totalmente ao centro */
+    place-items: center;
+    
+}
+
+/* classe botao 1 */
+.botao {  
+    /* altura */
+    height: 35px;
+
+    /* largura */
+    width: 130px;
+    
+    /* borda */
+    border: 0px;
+
+    /* decoração padrão */
+    text-decoration: none;   
+}
+
+
+
+/* texto do botao */
+.botao a {
+    /* tamanho da fonte */
+    font-size: 18px;
+
+    /* alinhamento do texto */
+    text-align: center;
+
+    /* decoração padrão */
+    text-decoration: none;
+
+    /* alinhamento x */
+    align-items: center;
+
+    /* alinhamento y */
+    justify-content: center;
+
+    /* margem interna */
+    padding: 10px 19.99px;
+
+    /* cor da fonte */
+    color: #01003D;
+}
+
+/* seção do botão 2 */
+.bot2 {    
+    /* background */
+    background-color: #BFBEFF;
+
+    /* margem de baixo */
+    margin-bottom: 0px;   
+
+    /* margem do topo */
+    margin-top: -10px; 
+}
+
+/* Estilo ao passar o mouse */
+.botao:hover {
+    /* cor da fonte */
+    color: #FF8049;
+
+    /* cor de fundo */
+    background-color: #01003D;
+
+    /* tempo de efeito */
+    transition: .5s;
+}
+
+.botao a:hover {
+    color: #FF8049;
+}
+
+/* efeito ao passar o mouse */
+.comprar:hover {
+    /* cor da fonte */
+    color: #FF8049;
+
+    /* cor de fundo */
+    background-color: #01003D;
+
+    /* tempo de efeito */
+    transition: .5s;
+}
+
+/* RESPONSIVO */
+@media (max-width: 1050px) {
+    .grade {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    .grid {
+        margin-top: 50px;
+       align-items: center;
+    }
+
+    .foto {
+        width: 150px;
+        height: 180px;
+    }
+}
+
+
+
+
